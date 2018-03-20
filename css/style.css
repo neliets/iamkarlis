@@ -33,6 +33,7 @@
 */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 html {
 
@@ -410,6 +411,8 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
   text-align:right;
   vertical-align:top;
   padding-bottom:10px;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
   }
 
 .myself .value{
@@ -418,5 +421,29 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
   width:30%;
   display:inline-block;
   box-sizing:border-box;
+  font-family: 'Slabo 27px', serif;
+  }
+
+.myself .significant {
+	font-weight: bold;
+}  
+
+.myself h2 {
+	margin: 35px 0 20px 0px;
+	position: relative;
+	left: 30px;
+}
+
+  .myself hr {
+	  border-color: #9c9c9c;
+	  width: 50%;
+	  margin: 20px auto 25px auto;
+	  position: relative;
+	  left: 8%;
+  }
+
+  .myself {
+	  position: relative;
+	  left: -4%;
   }
 
